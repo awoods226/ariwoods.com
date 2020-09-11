@@ -1,11 +1,17 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root') as HTMLElement
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
 );
-registerServiceWorker();
+
+// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+// Learn more: https://www.snowpack.dev/#hot-module-replacement
+if (import.meta.hot) {
+  import.meta.hot.accept();
+}
