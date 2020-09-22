@@ -1,4 +1,4 @@
 {
   "extends": "@snowpack/app-scripts-react",
-  "plugins": ["@snowpack/plugin-postcss"]
+  "plugins": ["@snowpack/plugin-postcss", "@snowpack/plugin-webpack"]
 }
