@@ -12,7 +12,7 @@
     "tailwindcss": "^1.8.7"
   },
   "devDependencies": {
-    "postcss": "^7.0.32",
+    "postcss": "^7.0.36",
     "postcss-cli": "^7.1.2",
     "postcss-import": "^12.0.1",
     "@snowpack/plugin-postcss": "^1.0.3",
