@@ -17,8 +17,8 @@ const AboutMe = () => {
           </p>
           <p className="mt-2 text-left">
             I currently work at <a>CDK Global</a> where I lead a team of
-            talented developers. We create Communications web applications
-            specializing in very high throughput.
+            talented developers. We create and maintain Communication APIs and responsive web applications.
+            I have extensive experience with high volume, large scale web APIs.
           </p>
           <div className="flex text-left">
             <section className="mr-12">
@@ -41,7 +41,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="border-solid border-2 sm:mx-auto sm:w-full md:w-1/2 h-64">
-          photo block here
+          This is my online portfolio that I use to play with new frameworks.  It's very much a work in progress.
         </div>
       </div>
     </div>

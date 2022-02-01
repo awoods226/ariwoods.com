@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WorkHistory = () => {
-  return <div>work history goes here</div>;
+  return <div></div>;
 };
 
 export default WorkHistory;
