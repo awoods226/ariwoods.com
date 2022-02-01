@@ -41,7 +41,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="border-solid border-2 sm:mx-auto sm:w-full md:w-1/2 h-64">
-          This is my online portfolio that I use to play with new frameworks.  It's very much a work in progress.
+          
         </div>
       </div>
     </div>
